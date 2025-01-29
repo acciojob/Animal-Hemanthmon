@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+#animal-photos{
+background-color: grey;
+padding: 30px;
+text-align: center;
+}
+
+#photo-heading{
+text-align: center
+	font: 24px;
+	color: white;
+}
+.photo-grid{
+display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.photo-grid img {
+width: 100%;
+	height: auto;
+	border-radius: 10px;
+	
+	
+	
+}
